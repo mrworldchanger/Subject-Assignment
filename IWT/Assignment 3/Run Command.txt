@@ -1,0 +1,8 @@
+1. Due to security reasons Chrome will not load local files by default. Because of This Subtitle will Not Run.
+2. To Run Local File Command in CMD.
+	CMD -
+	1. Copy the Directory of Chrome - 
+	   In My Case - C:\Program Files\Google\Chrome\Application
+	2.Add \chrome --allow-file-access-from-files After Above Command
+	3. Full Command is C:\Program Files\Google\Chrome\Application\chrome --allow-file-access-from-files
+	4. Paste This Command on CMD and A Clone of Chrome Window is Opened and Now Run The File in This.
