@@ -1,0 +1,36 @@
+body 
+{
+  background-color: skyblue;
+  border-style: dotted;
+
+}
+h1 
+{
+  color: Cyan;
+  text-align: center;
+  margin-left: 20px;
+  font-family: Trebuchet MS;
+  font-size: 45px;
+  font-style:italic;
+}
+h2 
+{
+  color: Blue;
+  margin-left: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+#hd3 
+{
+  color: White;
+  margin-left: 25px;
+  font-family: Calibri;
+  font-size: 35px;
+}
+#hd4
+{
+  color: grey;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
