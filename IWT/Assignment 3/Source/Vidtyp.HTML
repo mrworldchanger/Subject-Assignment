@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+	<div class="Topic">
+        <h1>Types of Video Supported By HTML</h1>
+    </div>
+   <div class= "Data">
+		<p>There are Basically Three Type of Video Supported By HTML-</p>		
+		<p>1. MP4</p>
+		<p>2. OGG</p>
+		<p>3. WEBM</p>
+		<h3>1. MP4</h3>
+		<p>	MPEG-4 Part 14 or MP4 is a digital multimedia container format most commonly used to store video and audio, but it can also be used to 
+		store other data such as subtitles and still images. Like most modern container formats, it allows streaming over the Internet. The only
+		filename extension for MPEG-4 Part 14 files as defined by the specification is .mp4. MPEG-4 Part 14 (formally ISO/IEC 14496-14:2003) is a 
+		standard specified as a part of MPEG-4. 
+		
+		Portable media players are sometimes advertised as "MP4 Players", although some are simply MP3 Players that also play AMV video or some other video format, and do not necessarily play the MPEG-4 Part 14 format..</p>
+		<p><br> Sample of MP4 Video - <br>Video Name - Iron Man Suit Up -Infinity War</p>
+		<video width="1000" height="419" style= "padding:15px " controls>
+		
+				<source src="Video\Types\Video.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+		</video>
+		<br>
+		<br>
+		<p><br> Sample of MP4 Video with Subtitle - <br>Video Name - Agent Barber Shop</p>
+		<video controls width="1000"  style= "padding:15px " > 
+				<source src="Video\Types\Video2.mp4" type="video/mp4">
+				<track label="English" kind="subtitles" src="Video\Types\Video2.vtt" srclang="en">
+		</video>
+		<br>
+		<br>
+		<h3>2. OGG</h3>
+		<p>	Ogg is a free, open container format maintained by the Xiph.Org Foundation. The creators of the Ogg format state that it is unrestricted 
+		by software patents and is designed to provide for efficient streaming and manipulation of high-quality digital multimedia. Its name is 
+		derived from "ogging", jargon from the computer game Netrek.
+		
+		The Ogg container format can multiplex a number of independent streams for audio, video, text (such as subtitles), and metadata.
+
+		In the Ogg multimedia framework, Theora provides a lossy video layer. The audio layer is most commonly provided by the music-oriented Vorbis 
+		format or its successor Opus. Lossless audio compression formats include FLAC, and OggPCM.</p>
+		<p><br> Sample of MP4 Video - <br>Video Name - Earth In Space</p>
+		<video width="1000" height="563" style= "padding:15px " controls>
+				
+				<source src="Video\Types\Video.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+		</video>
+		<br>
+		<br>
+		<h3>3. WEBM</h3>
+		<p>WebM is an open, royalty-free, media file format designed for the web.</p>
+
+		<p>WebM defines the file container structure, video and audio formats. WebM files consist of video streams 
+			compressed with the VP8 or VP9 video codecs and audio streams compressed with the Vorbis or Opus audio codecs.</p>
+
+		<p>The WebM file structure is based on the Matroska container.</p>
+		<p><br> Sample of WEBM Video - <br>Video Name - Iron Man Suit Up -Infinity War</p>
+		<video width="1000" height="419" style= "padding:15px " controls>
+
+				<source src="Video\Types\Video.webm" type="video/webm">
+				Your browser does not support the video tag.
+		</video>
+   </div>
+</body>
+</html>

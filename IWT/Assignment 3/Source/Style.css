@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Front h1 
+{
+    color: #F67280;
+}
+marquee 
+{
+    margin-top:10px;
+    color:white;
+}.Menu 
+{
+    width: 100%;
+    height:100%; 
+}
+
+.Menu h2 
+{
+      margin-top: 20px;
+      color: whitesmoke;
+      background-color: #6C5B7B;
+      text-align: center;
+      padding:20px;
+}
+  
+.Menu a {
+    background-color: #F8B195; 
+    color: black;
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+  
+.Menu a:hover 
+{
+    background-color: #F9E4DC; 
+}
+  
+.Menu a.active 
+{
+        background-color: #6C5B7B; 
+        color: White;
+}
+.Topic 
+{
+      width:100%;
+      height:200px;
+      background-color: #6C5B7B;
+}
+.Topic h1 
+{
+      color:white;
+      text-align:center;
+      font-size: 40px;;
+      padding:80px;
+}
+.Data 
+{
+      width:100%;
+      height:100%;
+      background-color: #F9E4DC;
+}
+.Data p 
+{
+      padding:10px;
+      font-size:16px;
+      text-align: justify;
+      
+}
+ .Data a {
+    background-color: #F9E4DC; 
+    color: black;
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+.Data h2
+{
+	 color: Blue;
+	 padding: 16px; 
+     text-align: center;
+}
+.Data a:hover 
+{
+    background-color: #F8B195; 
+}
+.Data h3 
+{
+      padding:12px;
+      font-size:16px;
+      text-align: justify;   
+}
+.
+.Data a.active 
+{
+        background-color: #6C5B7B; 
+        color: White;
+}
